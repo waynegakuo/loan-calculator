@@ -120,3 +120,15 @@ footer > span {
 footer > span > a {
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+
+    .results {
+        justify-content: center;
+    }
+
+    .card-1, .card-2, .card-3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
