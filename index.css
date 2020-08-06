@@ -1,0 +1,122 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    /* background-color: #edeef6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    padding: 5px;
+}
+
+.form-content {
+    padding: 10px;
+}
+
+.loan-form {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+button {
+    margin: 10px 0 10px 0;
+    background-color: #47a386;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+    font-size: 14px;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #edeef6;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+    background: rgba(0, 120, 250, 0.1);
+    transition: transform 0.2s ease;
+}
+
+h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    color: white;
+    background-color: #47a386;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.card-2 {
+    color: white;
+    background-color: #7273c5;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.card-3 {
+    color: white;
+    background-color: #5445db;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#monthlyPayment,
+#totalInterest,
+#totalPayment {
+    font-size: 2em;
+}
+
+.indicators {
+    font-size: 1.3em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+footer > span {
+    opacity: 0.5;
+}
+
+footer > span > a {
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-content">
+            <h2>Loan Calculator</h2>
+            <form id="loan-form" class="loan-form">
+                <label>Loan Amount</label>
+                <input type="number" id="amount" placeholder="Ksh">
+
+                <label>Interest</label>
+                <input type="number" id="interest" placeholder="%">
+
+                <label>Number of Years</label>
+                <input type="number" id="years">
+
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+
+        <h2>Calculated Results</h2>
+        <div class="results">
+            <div class="card-1">
+                <p id="monthlyPayment">Ksh</p>
+                <p class="indicators">Monthly Payments</p>
+            </div>
+
+            <div class="card-2">
+                <p id="totalInterest">%</p>
+                <p class="indicators">Total Interest</p>
+
+            </div>
+
+            <div class="card-3">
+                <p id="totalPayment">Ksh</p>
+                <p class="indicators">Total Amount to be Paid</p>
+            </div>
+        </div>
+
+        <footer>
+            <span class="footer_desc">Done with &#10084; by <a class="git_link" href="https://github.com/waynegakuo"
+                    target="_blank" rel="noopener">Wayne Gakuo</a></span>
+        </footer>
+    </div>
+
+    
+</body>
+<script src="index.js"></script>
+
+</html>
